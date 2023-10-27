@@ -139,6 +139,7 @@
         transition: .5s;
         opacity: 0;
     }
+
 }
 
 .navbar .nav-item:hover .dropdown-menu {
@@ -280,6 +281,9 @@
 }
 
 @media (max-width: 768px) {
+   .navbar-brand{
+    display: none;
+   }
     .carousel-item {
         min-height: 400px;
     }
@@ -881,3 +885,4 @@ background: linear-gradient(90deg, rgba(38,183,203,1) 6%, rgba(93,108,134,1) 24%
 
   
 /*Left Side Buttons End*/
+@media ()
