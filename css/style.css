@@ -894,8 +894,27 @@ background: linear-gradient(90deg, rgba(38,183,203,1) 6%, rgba(93,108,134,1) 24%
 a.h5{
     font-size: 14px;
 }
+
+
+.associate{
+    display: inline;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+}
 @media (max-width: 768px)
 {
+
+    .associate{
+        display: inline;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+    }
+    .img-repsonsive{
+        height: 50px;
+        width: 50px;
+    }
     a.h5{
         font-size: 12px;
     }
@@ -904,11 +923,7 @@ a.h5{
         height: 100px;
         width: 100px;
     }*/
-    .img-repsonsive{
-        height: 100px;
-        width: 100px;
-    }
-
+    
     
 }
 
